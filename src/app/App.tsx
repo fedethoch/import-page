@@ -73,7 +73,7 @@ function App() {
     const datos = { ...form }
 
     try {
-      const res = await axios.post("https://app-py-gfb2.onrender.com", datos)
+      const res = await axios.post("https://app-py-gfb2.onrender.com/api/calcular", datos)
       setResultado(res.data)
     } catch (err) {
       alert("Error al conectar con el backend.")

@@ -239,6 +239,7 @@ def generar_pdf(datos_resultado):
     return buffer
 
 @app.route("/api/calcular", methods=["POST"])
+
 def api_calcular():
     datos = request.json
     resultado = calcular_viabilidad(datos)
