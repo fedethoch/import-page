@@ -402,7 +402,7 @@ function App() {
 
                 {/* Botón de descarga */}
                 <a
-                  href={`http://localhost:5000/api/descargar/${resultado.nombre_archivo}`}
+                  href={`https://app-py-gfb2.onrender.com/api/descargar/${resultado.nombre_archivo}`}
                   download
                   className="download-button"
                 >
