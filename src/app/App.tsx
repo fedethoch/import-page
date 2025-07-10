@@ -94,6 +94,7 @@ function App() {
     <div className="app-container">
       {/* Header */}
       <header className="app-header">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8252982988349930" crossOrigin="anonymous"></script>
         <div className="header-content">
           <div className="header-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
